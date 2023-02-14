@@ -1,0 +1,52 @@
+
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-right: -120px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    grid-column-gap: 9px;
+    align-items: center;
+    margin: -3px -87px;
+    margin-right: -169px;
+}
+.divider_1{
+    height: 290px;
+}
+
+#input{
+    font-size: 15px;
+    margin: 13px 0px;
+    margin-bottom: 20px;
+}
+
+#search{
+    font-size: 14px;
+}
+
+.cast-header{
+    font-size: large;
+    margin-bottom: 19px;
+}
+#temperature{
+    margin-left: 5px;
+    font-size: 40px;
+}
+.forecastD{
+    margin: 10px -90px;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: 125px 125px 125px 125px;
+}
+.dayF{
+    font-size: 15px;
+    margin: 3px;
+    padding: 2px 0px;
+}
+.date{
+    font-size: 15px;
+}
