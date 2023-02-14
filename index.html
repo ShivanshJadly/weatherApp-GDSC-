@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="/phone.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="/phone1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>WEATHER APP</h1>
+        <div>
+            <input type="text" id="input" placeholder="--Enter city name--">
+            <button id="search">Search</button>
+
+        </div>
+    </div>
+
+    <main>
+        <div class="weather">
+            <h2 id="city">Delhi, IN</h2>
+            <div class="temp-box">
+                <img src="./weathericon.png" alt="weather" id="img">
+                <p id="temperature">26 &#8451</p>
+            </div>
+            <span id="clouds">Broken Clouds</span>
+        </div>
+
+        <div class="divider_1"></div>
+        <div class="forecastH">
+            <p class="cast-header">Upcoming Forecast</p>
+            <div class="templist">
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 &#8451 / 25 &#8451</p>
+                    </div>
+                    <p><img src="./weathericon.png" alt="weather" id="img"></p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 &#8451 / 25 &#8451</p>
+                    </div>
+                    <p><img src="./weathericon.png" alt="weather" id="img"></p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 &#8451 / 25 &#8451</p>
+                    </div>
+                    <p><img src="./weathericon.png" alt="weather" id="img"></p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 &#8451 / 25 &#8451</p>
+                    </div>
+                    <p><img src="./weathericon.png" alt="weather" id="img"></p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 &#8451 / 25 &#8451</p>
+                    </div>
+                    <p><img src="./weathericon.png" alt="weather" id="img"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="forecastD">
+        <p class="cast-header">Next 4 Days Forecast</p>
+        <div class="weekF">
+            <div class="dayF">
+                <p class="date">Sat Feb 11 2023</p>
+                <p>31 &#8451 / 25 &#8451</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sat Feb 11 2023</p>
+                <p>31 &#8451 / 25 &#8451</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+            
+            <div class="dayF">
+                <p class="date">Sat Feb 11 2023</p>
+                <p>31 &#8451 / 25 &#8451</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sat Feb 11 2023</p>
+                <p>31 &#8451 / 25 &#8451</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js" type="module"></script>
+</html>
