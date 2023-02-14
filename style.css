@@ -1,0 +1,143 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    color:#0b404d;
+}
+
+body{
+    padding: 1rem 5rem;
+    content: "";
+    position: absolute;
+    background: url(./weather.jpg) no-repeat center;
+    width: 60%;
+    height: 85%;
+    z-index: -1;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -381px;
+}
+
+.header h1{
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Fugaz One', cursive;
+}
+
+#input{
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: #f0ffff94;
+}
+#search{
+    background-color: #0b404d;
+    padding: 3px 20px;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    grid-column-gap: 25px;
+    align-items: center;
+    margin: 0px 50px;
+    margin-right: -325px;
+}
+
+#city{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+#temperature{
+    font-size: 50px;
+    margin:0px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.temp-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+#clouds{
+    font-size: 20px;
+    background-color: #e7ba3d;
+    border-radius: 10px;
+    padding: 5px;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;   
+    font-size: larger;
+    font-weight: bold;
+}
+
+.next p{
+    margin: 3px 0px;
+}
+.time, .date{
+    color:#4c4521;
+    font-size: 18px;
+}
+.desc{
+    color: #0b404d;
+}
+
+.cast-header{
+    color: #0b404d;
+    background-color: #e7ba3d;
+    border-radius: 13px;
+    padding: 5px 10px;
+    font-size: larger;
+    width: max-content;
+    margin-bottom: 5px;
+}
+
+.divider_1{
+    background-color:#e7ba3d;
+    height: 230px;
+    border-radius: 5px;
+}
+.forecastD{
+    color: #0b404d;
+    margin: 20px 50px;
+    text-align: center;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: larger;
+    font-weight: bold;
+}
+.dayF{
+    background-color: #f0f8ff7a;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.weather{
+    text-align: center;
+    color: #0b404d;
+}
+.weather img{
+    width: 120px;
+    height: 120px;
+    opacity: 0.8;
+    border-radius: 50px;
+}
