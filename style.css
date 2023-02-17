@@ -44,6 +44,10 @@ body{
     border-radius: 14px;
     cursor: pointer;
 }
+#search:hover{
+    background-color: #021216;
+    color: aquamarine;
+}
 
 main{
     display: grid;
@@ -90,6 +94,11 @@ main{
 .next p{
     margin: 3px 0px;
 }
+.next:hover{
+    background-color: #f3e4ad;
+    border-radius: 13px;
+    padding: 5px 10px;
+}
 .time, .date{
     color:#4c4521;
     font-size: 18px;
@@ -110,7 +119,7 @@ main{
 
 .divider_1{
     background-color:#e7ba3d;
-    height: 230px;
+    height: 50%;
     border-radius: 5px;
 }
 .forecastD{
@@ -129,6 +138,9 @@ main{
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
+}
+.dayF:hover{
+    background-color: #f3e4ad;
 }
 
 .weather{
